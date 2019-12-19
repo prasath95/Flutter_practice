@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Screens/Allcountrys.dart';
 
 
 void main()
@@ -6,9 +7,3 @@ void main()
   runApp(new MaterialApp(home:Allcountrys(),));
 }
 
-class Allcountrys extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text('Header'),),);
-  }
-}
