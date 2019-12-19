@@ -8,7 +8,10 @@ class Country extends StatelessWidget {
         backgroundColor: Colors.teal,
         title: Text('Country'),
       ),
-      body: Container(child: Text('This is Second activity in terms of android'),),
+      body: Container(
+        padding: EdgeInsets.all(12.0),
+        child: Text('This is Second activity in terms of android'),
+      ),
     );
   }
 }

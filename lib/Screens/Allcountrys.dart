@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/Screens/Country.dart';
 
 class Allcountrys extends StatelessWidget {
   @override
@@ -10,7 +11,19 @@ class Allcountrys extends StatelessWidget {
       ),
       body: Container(
         padding: EdgeInsets.all(10.0),
-        child: Text('Hello'),
+        child: RaisedButton(
+          onPressed: () {
+            print('hello');
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) {
+                  return Country();
+                },
+              ),
+            );
+          },
+          child: Text('Hello'),
+        ),
       ),
     );
   }
