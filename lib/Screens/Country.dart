@@ -5,8 +5,10 @@ class Country extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.teal,
         title: Text('Country'),
       ),
+      body: Container(child: Text('This is Second activity in terms of android'),),
     );
   }
 }
